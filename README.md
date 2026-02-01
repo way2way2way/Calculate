@@ -1,4 +1,4 @@
 # Calculate
-Calculate program decimalUnsupported
+python Calculate program a decimalUnsupported
 ## License
 MIT License
