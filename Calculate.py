@@ -15,5 +15,8 @@ elif b==3:
     print(a*c)
     print(f'{a} * {c} = {a * c}')
 elif b==4:
+    if c==0:
+        print(f"error {a} / {c} is Can't calculate")
+        sys.exit()
     print(a/c)
     print(f'{a} / {c} = {a / c}')
