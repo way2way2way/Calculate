@@ -1,10 +1,10 @@
 import sys
-a = int(input('number?:'))
+a = float(input('number?:'))
 b = int(input('1(+)2(-)3(*)4(/)?:'))
 if b>4 or b<1:
     print(f'error404 {b} is not found')
     sys.exit()
-c = int(input('number?:'))
+c = float(input('number?:'))
 if b==1:
     print(a+c)
     print(f'{a} + {c} = {a + c}')
