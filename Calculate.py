@@ -6,21 +6,17 @@ if b>4 or b<1:
     sys.exit()
 c = float(input('number?:'))
 if b==1:
-    result = a + c
-    print(result)
-    print(f'{a} + {c} = {result}')
+    print(a+c)
+    print(f'{a} + {c} = {a + c}')
 elif b==2:
-    result = a - c
-    print(result)
-    print(f'{a} - {c} = {result}')
+    print(a-c)
+    print(f'{a} - {c} = {a - c}')
 elif b==3:
-    result = a * c
-    print(result)
-    print(f'{a} * {c} = {result}')
+    print(a*c)
+    print(f'{a} * {c} = {a * c}')
 elif b==4:
     if c==0:
         print(f"error {a} / {c} is Can't calculate")
         sys.exit()
-    result = a / c
-    print(result)
-    print(f'{a} / {c} = {result}')
+    print(a/c)
+    print(f'{a} / {c} = {a / c}')
